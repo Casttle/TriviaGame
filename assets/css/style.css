@@ -1,0 +1,25 @@
+body{
+    background-color: gray;
+    text-align: center;
+}
+#title{
+    font-size: 50px;    
+}
+#timer{
+    font-size: 40px;
+}
+input{
+    height: 15px;
+    width: 15px;
+}
+p{
+    padding-top: 20px;
+}
+form{
+    background-color: rgb(112, 112, 3);
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    padding: 10px;
+}
