@@ -1,19 +1,24 @@
 body{
+    background-image: url("../images/red-texture.jpg");
     background-color: gray;
+    color: rgb(209, 236, 253);
     text-align: center;
+    text-shadow: 4px 4px 4px black;
+    font-family: "Concert One", "cursive";
 }
 #title{
-    font-size: 50px;    
+    margin-top: 25px;
+    font-size: 80px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
 }
 #timer{
     font-size: 40px;
 }
-input{
-    height: 15px;
-    width: 15px;
-}
+
 p{
     padding-top: 20px;
+    font-size: 50px;
 }
 form{
     background-color: rgb(112, 112, 3);
@@ -24,11 +29,39 @@ form{
     padding: 10px;
 }
 .awesomeQuestion {
+    font-size: 40px;
     text-align: center;
 }
 .awesomeAnswer{
-    background-color: white;
-    width: 500px;
-    margin: 10px auto;
+    background-color: rgb(8, 5, 180);
+    font-size: 30px;
+    border-radius: 8px;
+    width: 400px;
+    margin: 15px auto;
     padding: 5px 0;
+}
+.awesomeAnswer:hover{
+    background: radial-gradient(rgb(17, 13, 228),rgb(7, 7, 139), rgb(2, 11, 63));
+    
+}
+#startButton{
+    margin-top: 70px;
+    width:  300px;
+    height: 60px;
+    font-size: 40px;
+    color: white;
+    background: linear-gradient(to bottom right, blue , rgb(2, 2, 65));
+}
+#resetDiv{
+    margin-top: 20px
+}
+#reset{
+    width: 400px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(to bottom right, blue , rgb(2, 2, 65));
+}
+img{
+    margin-top: 5px;
 }
